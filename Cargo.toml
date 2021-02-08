@@ -1,0 +1,13 @@
+[package]
+name = "gb"
+version = "0.1.0"
+authors = ["Alex Tennant <alex@adtennant.co.uk>"]
+edition = "2018"
+
+[workspace]
+# members = [ "cli", "gui" ]
+members = [ "cli" ]
+
+[dependencies]
+bitfield = "*"
+bitflags = "*"
